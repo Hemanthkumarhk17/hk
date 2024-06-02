@@ -627,7 +627,7 @@ else
 push(operand1/operand2);
 }
 break;
-case '^': push(pow(operand1,operand2));
+case '^': push((operand1,operand2));
         break;
 default: printf("Invalid Operator : %c \n",expression[i]);
 exit(EXIT_FAILURE);
